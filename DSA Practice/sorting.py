@@ -12,7 +12,7 @@ class Solution:
 sol=Solution()
 arr=[7, 4, 1, 5, 3]
 n=len(arr)
-# print(sol.selectionSort(arr,n))
+print(sol.selectionSort(arr,n))
 
 
 class Solution:
@@ -31,7 +31,7 @@ class Solution:
 sol=Solution()
 arr=[7, 4, 1, 5, 3]
 n=len(arr)
-# print(sol.bubbleSort(arr,n))
+print(sol.bubbleSort(arr,n))
 
 
 class Solution:
@@ -50,7 +50,7 @@ class Solution:
 sol=Solution()
 arr=[7, 4, 1, 5, 3]
 n=len(arr)
-# print(sol.insertionSort(arr,n))
+print(sol.insertionSort(arr,n))
 
 
 
@@ -85,8 +85,8 @@ class Solution:
 sol=Solution()
 arr=[7, 4, 1, 5, 3]
 n=len(arr)
-# sol.mergeSort(arr,0,n-1)
-# print(arr)
+sol.mergeSort(arr,0,n-1)
+print(arr)
 
 class Solution:
     def quickSort(self, arr, low, high):
